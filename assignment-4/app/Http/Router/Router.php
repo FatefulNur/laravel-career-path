@@ -13,7 +13,7 @@ class Router
         static::$routes[] = $data;
     }
 
-    public static function run(): void
+    public static function run()
     {
         $requestURI = Request::currentURL(); 
         $requestMethod = Request::method(); 
@@ -33,6 +33,6 @@ class Router
         }
 
         http_response_code(404);
-        throw new \Exception("Page Not Found", 404);
+        return view("not-found");
     }
 }

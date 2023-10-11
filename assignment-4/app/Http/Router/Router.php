@@ -26,9 +26,11 @@ class Router
                 $URI === $requestURI &&
                 $method === $requestMethod
             ) {
-                [$controller, $action] = $route["action"];
-                (new $controller)->$action();
-                return;
+                [$controller, $action] = $route["action"] ?? [null, null];
+
+                if($controller && $action) {
+                    return (new $controller)->$action();
+                }
             }
         }
 

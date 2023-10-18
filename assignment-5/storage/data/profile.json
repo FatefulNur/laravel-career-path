@@ -1,0 +1,43 @@
+{
+    "name": "KM Nurunnabi",
+    "title": "Software Engineer",
+    "bio": "Hey. I love software engineering. I have been learning web development since 2020 and ambitious to be skilled. I have tried several technologies to gain knowledge about web as like javascript, php, wordpress, laravel then react. Currently I am learning laravel as it has a fantastic working experience.",
+    "dob": "2000-01-04",
+    "educations": [
+        {
+            "institution": "CPA High School",
+            "duration": {
+                "from": 2011,
+                "to": 2017
+            },
+            "degree": "Intermediate"
+        },
+        {
+            "institution": "Chattogram Polytechnic",
+            "duration": {
+                "from": 2019,
+                "to": 2022
+            },
+            "degree": "Electronics Engineer (left)"
+        }
+    ],
+    "skills": {
+        "frontend": [
+            "javascript",
+            "react"
+        ],
+        "backend": [
+            "php",
+            "laravel"
+        ]
+    },
+    "contacts": {
+        "email": "km.nurunnabi66@gmail.com",
+        "phone": "+88 01993666066",
+        "address": {
+            "country": "Bangladesh",
+            "state": "Chattogram",
+            "street": "Nimtola, Bondor"
+        }
+    }
+}

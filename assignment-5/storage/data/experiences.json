@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "company": "Doc planner",
+        "title": "Backend developer",
+        "location": "silicon valley",
+        "duration": {
+            "from": 2015,
+            "to": 2017
+        },
+        "roles": [
+            "coding",
+            "collaborating",
+            "developing"
+        ]
+    },
+    {
+        "id": 2,
+        "company": "Renmo Homes",
+        "title": "Frontend Developer",
+        "location": "california",
+        "duration": {
+            "from": 2018,
+            "to": 2019
+        },
+        "roles": [
+            "coding",
+            "debugging",
+            "deploying"
+        ]
+    }
+]

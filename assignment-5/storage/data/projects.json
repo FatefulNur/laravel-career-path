@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Alarm Clock",
+        "description": "A simple alarm clock made by javascript. There has a ringing sound effect when it reaches the time.",
+        "language": "javascript",
+        "screenshot": "/images/screenshots/alarm.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "Budget Apps",
+        "description": "Project for creating specific budgets and expenses. Here has a nice interface of listing and tracking all the budgets.",
+        "language": "react",
+        "screenshot": "/images/screenshots/expense.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "Geometry Calculation",
+        "description": "Several basic area of geometry can be calculate with this project.",
+        "language": "javascript",
+        "screenshot": "/images/screenshots/geometry.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "Simple Forecast",
+        "description": "This is a basic of weather forecast application. Basic of weather condition feature available here.",
+        "language": "react",
+        "screenshot": "/images/screenshots/weather.jpeg"
+    },
+    {
+        "id": 5,
+        "name": "Guessing the Word",
+        "description": "A Shuffled word guessing game. ",
+        "language": "javascript",
+        "screenshot": "/images/screenshots/word.jpeg"
+    }
+]

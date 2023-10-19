@@ -2,7 +2,7 @@
     {
         "id": 1,
         "company": "Doc planner",
-        "title": "Backend developer",
+        "title": "Backend development",
         "location": "silicon valley",
         "duration": {
             "from": 2015,
@@ -17,7 +17,7 @@
     {
         "id": 2,
         "company": "Renmo Homes",
-        "title": "Frontend Developer",
+        "title": "Frontend Development",
         "location": "california",
         "duration": {
             "from": 2018,

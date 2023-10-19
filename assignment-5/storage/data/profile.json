@@ -21,16 +21,12 @@
             "degree": "Electronics Engineer (left)"
         }
     ],
-    "skills": {
-        "frontend": [
-            "javascript",
-            "react"
-        ],
-        "backend": [
-            "php",
-            "laravel"
-        ]
-    },
+    "skills": [
+        "javascript",
+        "react",
+        "php",
+        "laravel"
+    ],
     "contacts": {
         "email": "km.nurunnabi66@gmail.com",
         "phone": "+88 01993666066",

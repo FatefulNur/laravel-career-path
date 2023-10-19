@@ -16,13 +16,13 @@
                 FOLIO
             </div>
             <ul class="flex items-center h-full text-orange-600 divide-x divide-orange-400">
-                <li class="rounded-full px-5 py-2 text-md font-semibold cursor-pointer hover:shadow-lg hover:border-b-2 hover:border-orange-400 @if(request()->path() === "home") {{ "border-b-2 border-orange-400" }} @endif">
+                <li class="rounded-full px-5 py-2 text-md font-semibold cursor-pointer hover:shadow-lg hover:border-b-2 hover:border-orange-400 @if(request()->path() === "home") {{ "border-b-2 border-orange-400 shadow-lg" }} @endif">
                     <a href="{{ url("/home") }}">Home</a>
                 </li>
-                <li class="rounded-full px-5 py-2 text-md font-semibold cursor-pointer hover:shadow-lg hover:border-b-2 hover:border-orange-400 @if(request()->path() === "experiences") {{ "border-b-2 border-orange-400" }} @endif">
+                <li class="rounded-full px-5 py-2 text-md font-semibold cursor-pointer hover:shadow-lg hover:border-b-2 hover:border-orange-400 @if(request()->path() === "experiences") {{ "border-b-2 border-orange-400 shadow-lg" }} @endif">
                     <a href="{{ url("/experiences") }}">Experiences</a>
                 </li>
-                <li class="rounded-full px-5 py-2 text-md font-semibold cursor-pointer hover:shadow-lg hover:border-b-2 hover:border-orange-400 @if(request()->path() === "projects") {{ "border-b-2 border-orange-400" }} @endif">
+                <li class="rounded-full px-5 py-2 text-md font-semibold cursor-pointer hover:shadow-lg hover:border-b-2 hover:border-orange-400 @if(request()->path() === "projects") {{ "border-b-2 border-orange-400 shadow-lg" }} @endif">
                     <a href="{{ url("/projects") }}">Projects</a>
                 </li>
             </ul>

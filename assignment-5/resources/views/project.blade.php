@@ -38,7 +38,7 @@
                         {{ $project["language"] }}
                     </span>
                 </h1>
-                <p class="text-md text-gray-400">
+                <p class="text-md text-gray-600">
                     {{ $project["description"] }}
                 </p>
 

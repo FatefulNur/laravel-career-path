@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\FolioController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get("/", function () {
+    return view("welcome");
 });
+
+Route::get('/home', [FolioController::class, "index"]);
+Route::get('/experiences', [FolioController::class, "experiences"]);
+Route::get('/projects', [FolioController::class, "projects"]);
+Route::get('/project/{projectId}', [FolioController::class, "project"]);

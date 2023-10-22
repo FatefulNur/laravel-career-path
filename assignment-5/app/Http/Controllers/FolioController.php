@@ -32,7 +32,7 @@ class FolioController extends Controller
     {
         $projects = File::json(storage_path("data/projects.json"));
 
-        if(!Arr::exists($projects, ($projectId - "1"))) {
+        if (!Arr::exists($projects, ($projectId - "1"))) {
             abort(404);
         }
 
